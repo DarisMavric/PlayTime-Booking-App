@@ -3,7 +3,6 @@
 **PlayTime** is a web application built with **Next.js** and **PostgreSQL** that allows users to easily book sports fields (football, basketball, tennis, etc.) and fitness sessions.  
 The app supports **online payments (Stripe)**, **SMS reminders (Twilio)**, and **user reviews & ratings** for venues.  
 
----
 
 ## ✨ Features
 
@@ -17,7 +16,6 @@ The app supports **online payments (Stripe)**, **SMS reminders (Twilio)**, and *
   - **Owner/Admin** → manage bookings, venues, and payments  
 - 📊 Dashboard for managing venues, availability, and bookings  
 
----
 
 ## 🛠️ Tech Stack
 
@@ -29,4 +27,13 @@ The app supports **online payments (Stripe)**, **SMS reminders (Twilio)**, and *
 - **SMS Notifications:** [Twilio](https://www.twilio.com/)  
 - **Auth:** NextAuth.js (JWT-based authentication)  
 
----
+
+## 📖 Usage
+
+- Sign up / Log in as a **player** or **venue owner**.  
+- Browse venues and check available slots.  
+- Book a session → pay online via **Stripe**.  
+- Receive **SMS reminder** before your booking.  
+- After the session → leave a **review & rating ⭐**.  
+- Venue owners can manage **bookings and payments** in their dashboard.
+
